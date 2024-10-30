@@ -12,7 +12,7 @@ const Todo = () => {
         const inputText = inputRef.current.value.trim();
         console.log(inputText);
 
-        if(inputText === " "){
+        if(inputText === ""){
             return null;
         }
        

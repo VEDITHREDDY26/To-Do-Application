@@ -12,7 +12,7 @@ const Todo = () => {
         const inputText = inputRef.current.value.trim();
         console.log(inputText);
 
-        if(inputText === " "){
+        if(inputText === ""){
             return null;
         }
        
@@ -54,6 +54,7 @@ const Todo = () => {
 
 
   return (
+
     <div className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500
      min-h-screen flex items-center justify-center">
 
